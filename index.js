@@ -28,7 +28,7 @@ app.get("/", function (req, res) {
     res.send("Server is up!");
 });
 
-app.listen(3000);
+app.listen(8000);
 
 // keycloak init > get keycloak
 //  >>> keycloak.middleware() 미들웨어로 사용할 수 있게?? 아직 이해 안 됨
