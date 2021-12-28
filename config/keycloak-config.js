@@ -5,7 +5,7 @@ let _keycloak;
 var keycloakConfig = {
     clientId: 'nodejs-microservice',
     bearerOnly: true,
-    serverUrl: 'http://13.124.65.166:8180/auth',
+    serverUrl: 'http://localhost:8180/auth',
     realm: 'Demo-Realm',
     credentials: {
         secret: 'cbffd605-5a96-4924-984f-fbd4b4cde25e'
